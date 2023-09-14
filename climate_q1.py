@@ -29,7 +29,7 @@ temp_results = cursor.fetchall()
 
 years = [year for year in year_results]
 co2 = [reading for reading in co2_results]
-temp = [record for record in year_results]
+temp = [record for record in temp_results]
 
 plt.subplot(2, 1, 1)
 plt.plot(years, co2, 'b--') 
